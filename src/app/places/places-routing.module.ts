@@ -6,6 +6,7 @@ import { PlacesPage } from './places.page';
 const routes: Routes = [
   {
     path: 'tabs',
+    component: PlacesPage,
     children: [
       {
         path: 'discover',
@@ -27,7 +28,7 @@ const routes: Routes = [
         ],
       },
       {
-        path: 'offer',
+        path: 'offers',
         children: [
           {
             path: '',
