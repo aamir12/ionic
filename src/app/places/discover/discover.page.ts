@@ -20,6 +20,8 @@ export class DiscoverPage implements OnInit {
   }
 
   onOpenMenu() {
-    this.menuCtrl.toggle();
+    //this.menuCtrl.toggle();
+    //in case multiple menu; menuId is used
+    //this.menuCtrl.open('m1');
   }
 }
